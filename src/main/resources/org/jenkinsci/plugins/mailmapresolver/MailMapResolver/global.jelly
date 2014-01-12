@@ -1,0 +1,8 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Mail Map Resolver">
+      <f:entry title="User Mapping" help="/plugin/mailmap-resolver/help/userMap.html">
+        <f:textarea name="mailMapResolver_Map" value="${descriptor.mailMap}" />
+        <!-- checkUrl="'${rootUrl}/plugin/MailMapResolver/checkSyntax?value='+encode(this.value)" -->
+      </f:entry>
+  </f:section>
+</j:jelly>
