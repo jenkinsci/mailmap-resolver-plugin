@@ -9,7 +9,7 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>mailmap-resolver</artifactId>
     <name>Mail Map Resolver</name>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>hpi</packaging>
   
     <developers>
