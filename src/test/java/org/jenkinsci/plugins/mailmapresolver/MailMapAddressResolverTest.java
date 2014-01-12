@@ -105,6 +105,6 @@ public class MailMapAddressResolverTest {
         
         page = client.goTo("configure");
         mapInput = page.getElementByName("mailMapResolver_Map");
-        assertEquals("micket=mickey@disney.com", mapInput.getText());
+        assertEquals("mickey=mickey@disney.com", mapInput.getText());
     }
 }
