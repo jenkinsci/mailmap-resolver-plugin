@@ -28,6 +28,7 @@ public class MailMapResolver extends Descriptor<MailMapResolver> implements Desc
 
     public MailMapResolver() {
         super(self());
+        load();
     }
 
     public Descriptor<MailMapResolver> getDescriptor() {
@@ -54,6 +55,7 @@ public class MailMapResolver extends Descriptor<MailMapResolver> implements Desc
     public boolean configure(StaplerRequest req, JSONObject formData)
             throws FormException {
         mailMap = formData.getString("mailMapResolver_Map");
+        save();
         return super.configure(req, formData);
     }
     
