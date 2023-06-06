@@ -6,9 +6,9 @@
 
 package org.jenkinsci.plugins.mailmapresolver;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.html.HtmlTextArea;
-import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
+import org.htmlunit.html.HtmlPage;
+import org.htmlunit.html.HtmlTextArea;
+import org.htmlunit.html.HtmlTextInput;
 import hudson.model.User;
 import java.io.IOException;
 import org.junit.Rule;
